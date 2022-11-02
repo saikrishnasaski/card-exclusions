@@ -9,4 +9,8 @@ import java.util.List;
 public interface ExclusionRepository extends JpaRepository<ExclusionEntity, Integer> {
 
     List<ExclusionEntity> findByCardEntityCardNumber(String cardNumber);
+
+
+
+    
 }
